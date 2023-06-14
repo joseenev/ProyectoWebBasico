@@ -1,0 +1,1 @@
+web: python manage.py migrate && gunicorn Pagina_Web_de_solo_mostrar_informacion_internet.wsgi
